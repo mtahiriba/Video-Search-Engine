@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="simplevideo.css" />
+  </head>
+  <body onload="LoadContent()">
+    <div class="main-container">
+      <div class="heading">
+        <img src="pawxyy.png" />
+        <span>Simple Video Search Engine</span>
+      </div>
+      <div class="search-engine">
+        <input id="search-input" type="text" placeholder="Search.." />
+        <button id="search-button" type="submit">
+          <img src="search.png" />
+        </button>
+      </div>
+
+      <div id="container" class="video-container">
+        <!-- Video container render here through JS -->
+      </div>
+
+      <div class="pagination-container">
+        <button class="next-btn">
+          Next
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="next-arrow"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="search-on-google">
+        <div class="search-bar">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="search-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+            Search Black Pink on Google
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="/simpevideo.js"></script>
+  </body>
+</html>

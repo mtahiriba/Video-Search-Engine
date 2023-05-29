@@ -1,0 +1,226 @@
+html , body {
+    background-color:rgba(221, 221, 221, 1);
+
+    
+}
+
+.main-container{
+  padding:  50px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  align-items: center ;
+}
+
+
+.heading, img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.heading span{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.search-engine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    margin-top: 25px;
+    height: 100px;
+    position: relative;
+}
+
+.search-engine input[type=text]{
+  padding: 10px 40px;
+  border: none;
+  font-size: 30px;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.search-engine button{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+}
+
+.search-engine button img{
+  width: 50px;
+  height: 50px;
+}
+
+.video-main-container{
+  text-decoration: none;
+  color: black;
+}
+
+.video-container{
+  /* background-color: aqua; */
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.video{
+  width: 100%;
+  height: 210px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.video-img{
+  background-color: aqua;
+  border-radius: 20px;
+  height: 100%;
+  width: 40%;
+  margin-right: 30px;
+}
+
+.video-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.img-data{
+  /* background-color: brown; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.img-data .title{
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-data .creater-name{
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(140, 140, 140);
+}
+
+.logo-container{
+  width: 100%;
+  height: 50px;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.youtube-logo{
+  display: flex;
+  align-items: center;
+}
+
+.youtube-logo img{
+  width: 40px;
+  height: 40px;
+}
+
+.youtube-logo span{
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(140, 140, 140);
+}
+
+.pagination-container{
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 130px;
+}
+
+.next-btn{
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-right: 20px;
+  width: 33%;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 30px;
+  width: 33%;
+  border: none;
+  cursor: pointer;
+}
+
+.page-number{
+  width: 33%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.next-arrow{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.search-on-google{
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  background-color: white;
+  width: 70%;
+  height: 90px;
+  border-radius: 50px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar a{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: deepskyblue;
+}
+
+.search-icon{
+  width: 30px;
+  height: 30px;
+}
